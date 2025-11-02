@@ -26,7 +26,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
-     baseURL: 'https://parabank.parasoft.com/parabank/index.htm',
+     baseURL: 'http://localhost:8080/parabank/',
      headless: false,
 
 

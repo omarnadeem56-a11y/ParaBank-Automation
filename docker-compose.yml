@@ -1,0 +1,10 @@
+version: "3"
+services:
+  parabank-tests:
+    build: .
+    container_name: parabank-tests
+    working_dir: /app
+    volumes:
+      - .:/app        # Mount your local code into the container
+    command: npx playwright test
+    tty: true

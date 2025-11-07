@@ -1,0 +1,17 @@
+{
+  "validRegistrations": [
+    {
+      "firstName": "Taylor",
+      "lastName": "Morgan",
+      "street": "123 Elm Street",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62701",
+      "phoneNumber": "5551234567",
+      "ssn": "123-45-6789",
+      "username": "taylormorgan",
+      "password": "P@ssw0rd123",
+      "confirmPassword": "P@ssw0rd123"
+    }
+  ]
+}
